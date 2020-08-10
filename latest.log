@@ -1,0 +1,828 @@
+[12:42:18] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[12:42:19] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[12:42:19] [Server-Worker-2/INFO]: Loaded 7 recipes
+[12:42:21] [Server thread/INFO]: Starting minecraft server version 1.16.1
+[12:42:21] [Server thread/INFO]: Loading properties
+[12:42:21] [Server thread/INFO]: This server is running Paper version git-Paper-131 (MC: 1.16.1) (Implementing API version 1.16.1-R0.1-SNAPSHOT)
+[12:42:21] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:42:21] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:42:21] [Server thread/INFO]: Debug logging is disabled
+[12:42:21] [Server thread/INFO]: Default game type: SURVIVAL
+[12:42:21] [Server thread/INFO]: Generating keypair
+[12:42:22] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:42:23] [Server thread/INFO]: Using epoll channel type
+[12:42:23] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:42:26] [Server thread/WARN]: Legacy plugin OreTeleport v1.1.3 does not specify an api-version.
+[12:42:26] [Server thread/WARN]: Legacy plugin ServerMonitor v1.1.3 does not specify an api-version.
+[12:42:26] [Server thread/WARN]: Legacy plugin PlayerChecker v1.0.0 does not specify an api-version.
+[12:42:27] [Server thread/WARN]: Legacy plugin TCExpress v1.1 does not specify an api-version.
+[12:42:27] [Server thread/WARN]: Legacy plugin RBTrash v1.5.3 does not specify an api-version.
+[12:42:27] [Server thread/WARN]: Legacy plugin SbPlaceholder v1.0-SNAPSHOT does not specify an api-version.
+[12:42:27] [Server thread/WARN]: Legacy plugin TitleDomain v1.2.1 does not specify an api-version.
+[12:42:27] [Server thread/WARN]: Legacy plugin DomainCommands v1.0.1 does not specify an api-version.
+[12:42:27] [Server thread/WARN]: Legacy plugin CMIEInjector v1.0.2.3 does not specify an api-version.
+[12:42:27] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.1.26
+[12:42:27] [Server thread/INFO]: [OreTeleport] Loading OreTeleport v1.1.3
+[12:42:27] [Server thread/INFO]: [ServerMonitor] Loading ServerMonitor v1.1.3
+[12:42:27] [Server thread/INFO]: [PlayerChecker] Loading PlayerChecker v1.0.0
+[12:42:27] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.7
+[12:42:27] [Server thread/INFO]: [VillagerOptimiser] Loading VillagerOptimiser v1.1.3
+[12:42:27] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.7
+[12:42:27] [Server thread/INFO]: [TCExpress] Loading TCExpress v1.1
+[12:42:27] [Server thread/INFO]: [RBTrash] Loading RBTrash v1.5.3
+[12:42:27] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.6.0-SNAPSHOT-b473
+[12:42:27] [Server thread/INFO]: [ImageOnMap] Loading ImageOnMap v4.0
+[12:42:27] [Server thread/INFO]: [AdvancedCleaner] Loading AdvancedCleaner v1.2
+[12:42:27] [Server thread/INFO]: [NoteBlockAPI] Loading NoteBlockAPI v1.6.1-SNAPSHOT
+[12:42:27] [Server thread/INFO]: [AntiSeedCracker] Loading AntiSeedCracker v1.0
+[12:42:27] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v1.0.0
+[12:42:27] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+[12:42:27] [Server thread/INFO]: [DynFarming] Loading DynamicFarming v0.1.2-beta
+[12:42:27] [Server thread/INFO]: [JukeBox] Loading JukeBox v1.18.3
+[12:42:27] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0-beta-02+d10d7d6
+[12:42:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5708e43]
+[12:42:28] [Server thread/INFO]: [SbPlaceholder] Loading SbPlaceholder v1.0-SNAPSHOT
+[12:42:28] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.4-beta1;bc551da
+[12:42:28] [Server thread/INFO]: [BossShopPro] Loading BossShopPro v2.0.9
+[12:42:28] [Server thread/INFO]: [BentoBox] Loading BentoBox v1.15.0-SNAPSHOT-b1846
+[12:42:28] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v19.1
+[12:42:28] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.1.1-SNAPSHOT-b777
+[12:42:29] [Server thread/INFO]: [TitleDomain] Loading TitleDomain v1.2.1
+[12:42:29] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-SNAPSHOT-b2418
+[12:42:29] [Server thread/INFO]: [LiteBans] Loading LiteBans v2.5.9
+[12:42:29] [Server thread/INFO]: [CMI] Loading CMI v8.7.5.4
+[12:42:29] [Server thread/INFO]: [Plan] Loading Plan v5.1 build 624
+[12:42:29] [Server thread/INFO]: [DomainCommands] Loading DomainCommands v1.0.1
+[12:42:29] [Server thread/INFO]: [CMIEInjector] Loading CMIEInjector v1.0.2.3
+[12:42:29] [Server thread/INFO]: [FastLogin] Loading FastLogin v1.11-SNAPSHOT-496a036
+[12:42:29] [Server thread/INFO]: [QuickShop] Loading QuickShop v4.0.4.5
+[12:42:29] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booting up...
+[12:42:29] [Server thread/INFO]: [QuickShop] Loading up integration modules.
+[12:42:29] [Server thread/INFO]: [QuickShop] QuickShop Reremake - Early boot step - Booted up...
+[12:42:29] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:42:29] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.1.26
+[12:42:29] [Server thread/INFO]:         __    
+[12:42:29] [Server thread/INFO]:   |    |__)   LuckPerms v5.1.26
+[12:42:29] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[12:42:29] [Server thread/INFO]: 
+[12:42:29] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:42:30] [Server thread/INFO]: [LuckPerms] Loading storage provider... [MYSQL]
+[12:42:30] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Starting...
+[12:42:30] [Server thread/INFO]: [me.lucko.luckperms.lib.hikari.HikariDataSource] luckperms-hikari - Start completed.
+[12:42:30] [Server thread/INFO]: [LuckPerms] Loading messaging service... [SQL]
+[12:42:31] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:42:31] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:42:31] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2512ms)
+[12:42:31] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.6.0-SNAPSHOT-b473
+[12:42:31] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[12:42:31] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+[12:42:31] [Server thread/WARN]: [Vault] Loaded class com.Zrips.CMI.Modules.Economy.Economy from CMI v8.7.5.4 which is not a depend, softdepend or loadbefore of this plugin.
+[12:42:31] [Server thread/INFO]: [Vault] [Economy] CMI Economy found: Waiting
+[12:42:31] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:42:31] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+[12:42:31] [Server thread/WARN]: [LuckPerms] Loaded class net.milkbowl.vault.permission.Permission from Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER} which is not a depend, softdepend or loadbefore of this plugin.
+[12:42:31] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[12:42:31] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0-beta-02+d10d7d6
+[12:42:31] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[12:42:32] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R1 as the Bukkit adapter
+[12:42:33] [Server thread/INFO]: [BentoBox] Enabling BentoBox v1.15.0-SNAPSHOT-b1846
+[12:42:33] [Server thread/INFO]: [BentoBox] Loading Settings from config.yml...
+[12:42:36] [Server thread/INFO]: [BentoBox] Hooking with Vault...
+[12:42:36] [Server thread/INFO]: [BentoBox] Loading addons...
+[12:42:37] [Server thread/INFO]: [BentoBox] Loaded 5 addons.
+[12:42:37] [Server thread/INFO]: [CMIEInjector] Enabling CMIEInjector v1.0.2.3*
+[12:42:37] [Server thread/INFO]: [CMIEInjector] Injecting CMI Economy
+[12:42:37] [Server thread/INFO]: [CMIEInjector] [Economy] CMI Economy found: Waiting
+[12:42:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:42:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:42:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:42:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:42:37] [Server thread/INFO]: Preparing level "world"
+[12:42:37] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:42:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:42:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:42:37] [Server thread/INFO]: Max TNT Explosions: 100
+[12:42:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:42:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:42:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:42:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:42:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:42:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:42:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:42:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:42:37] [Server thread/INFO]: View Distance: 10
+[12:42:37] [Server thread/INFO]: Mob Spawn Range: 6
+[12:42:37] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:42:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:42:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:42:38] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:42:38] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:42:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:42:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:42:38] [Server thread/INFO]: Max TNT Explosions: 100
+[12:42:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:42:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:42:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:42:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:42:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:42:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:42:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:42:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:42:38] [Server thread/INFO]: View Distance: 10
+[12:42:38] [Server thread/INFO]: Mob Spawn Range: 6
+[12:42:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:42:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:42:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:42:39] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:42:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:42:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:42:39] [Server thread/INFO]: Max TNT Explosions: 100
+[12:42:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:42:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:42:39] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:42:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:42:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:42:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:42:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:42:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:42:39] [Server thread/INFO]: View Distance: 10
+[12:42:39] [Server thread/INFO]: Mob Spawn Range: 6
+[12:42:39] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:42:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:42:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:42:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:42:39] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[12:42:39] [Server thread/INFO]: Preparing spawn area: 0%
+[12:42:39] [Server thread/INFO]: Preparing spawn area: 0%
+[12:42:40] [Server thread/INFO]: Time elapsed: 914 ms
+[12:42:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:42:40] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[12:42:40] [Server thread/INFO]: Time elapsed: 554 ms
+[12:42:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:42:40] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[12:42:40] [Server thread/INFO]: Time elapsed: 209 ms
+[12:42:40] [Server thread/INFO]: [OreTeleport] Enabling OreTeleport v1.1.3*
+[12:42:40] [Server thread/INFO]: [OreTeleport]矿物传送插件已开启
+[12:42:40] [Server thread/INFO]: [OreTeleport]作者：150149  QQ：1802796278
+[12:42:40] [Server thread/INFO]: [ServerMonitor] Enabling ServerMonitor v1.1.3*
+[12:42:40] [Server thread/INFO]: [ServerMonitor] 已启用.
+[12:42:40] [Server thread/INFO]: [PlayerChecker] Enabling PlayerChecker v1.0.0*
+[12:42:40] [Server thread/INFO]: [PlayerChecker] [PlayerChecker] Loading config...
+[12:42:40] [Server thread/INFO]: [PlayerChecker]  
+[12:42:40] [Server thread/INFO]: [PlayerChecker] >>>>>>>>>>>>>>>>>>>>>>>> PlayerChecker Loaded <<<<<<<<<<<<<<<<<<<<<<<<
+[12:42:40] [Server thread/INFO]: [PlayerChecker] >>>>> If you encounter any bugs, please contact author's QQ: 768318841 <<<<<
+[12:42:40] [Server thread/INFO]: [PlayerChecker]  
+[12:42:40] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.7
+[12:42:40] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[12:42:40] [Server thread/INFO]: [VillagerOptimiser] Enabling VillagerOptimiser v1.1.3
+[12:42:40] [Server thread/INFO]: [VillagerOptimiser] Loading config.yml...
+[12:42:40] [Server thread/INFO]: [VillagerOptimiser] Successfully loaded config.yml.
+[12:42:40] [Server thread/INFO]: [VillagerOptimiser] Successfully enabled.
+[12:42:40] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.7
+[12:42:41] [Server thread/INFO]: [TCExpress] Enabling TCExpress v1.1*
+[12:42:41] [Server thread/INFO]: [RBTrash] Enabling RBTrash v1.5.3*
+[12:42:41] [Server thread/INFO]: [Trash] 创建日志文件.
+[12:42:41] [Server thread/INFO]: [Trash] [面包修改版Trash]插件已启动!
+[12:42:41] [Server thread/INFO]: [ImageOnMap] Enabling ImageOnMap v4.0
+[12:42:41] [Server thread/INFO]: [ImageOnMap] Loaded 2 player map files.
+[12:42:41] [Server thread/INFO]: [AdvancedCleaner] Enabling AdvancedCleaner v1.2
+[12:42:41] [Server thread/WARN]: [AdvancedCleaner] Failed to load entity limit, entity type not found: PIG_ZOMBIE
+[12:42:42] [Server thread/INFO]: [NoteBlockAPI] Enabling NoteBlockAPI v1.6.1-SNAPSHOT
+[12:42:42] [Server thread/INFO]: [AntiSeedCracker] Enabling AntiSeedCracker v1.0
+[12:42:42] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v1.0.0
+[12:42:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:42:43] [Server thread/INFO]: [Geyser-Spigot] 
+[12:42:43] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 1.0.0 (git-master-964432e)
+[12:42:43] [Server thread/INFO]: [Geyser-Spigot] 
+[12:42:43] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:42:43] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 117 ms to scan 1 urls, producing 29 keys and 293 values 
+[12:42:44] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 20 ms to scan 1 urls, producing 7 keys and 25 values 
+[12:42:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 54 ms to scan 1 urls, producing 7 keys and 25 values 
+[12:42:54] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 32 ms to scan 1 urls, producing 6 keys and 27 values 
+[12:42:56] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 30 ms to scan 1 urls, producing 6 keys and 20 values 
+[12:42:57] [Network Listener - #1/INFO]: [Geyser-Spigot] Started Geyser on 0.0.0.0:19132
+[12:42:57] [Server thread/INFO]: [Geyser-Spigot] Done (13.917s)! Run /geyser help for help!
+[12:42:57] [Server thread/INFO]: [DynFarming] Enabling DynamicFarming v0.1.2-beta
+[12:42:57] [Server thread/INFO]: [JukeBox] Enabling JukeBox v1.18.3
+[12:42:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: jukebox
+[12:42:57] [Server thread/INFO]: [JukeBox] Placeholders registered
+[12:42:57] [Server thread/INFO]: [JukeBox] This JukeBox version requires NoteBlockAPI version 1.5.0 or more. Please ensure you have the right version before using JukeBox (you are using NBAPI ver. 1.6.1-SNAPSHOT)
+[12:42:57] [Server thread/INFO]: [JukeBox] Loaded language file cn.yml
+[12:42:57] [Server thread/INFO]: [SbPlaceholder] Enabling SbPlaceholder v1.0-SNAPSHOT*
+[12:42:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: s
+[12:42:57] [Server thread/INFO]: >> 欢迎使用 SbPlaceholder , 插件作者： 小明(QQ:1360197420)
+[12:42:57] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.4-beta1;bc551da
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[12:42:57] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[12:42:57] [Server thread/INFO]: [WorldGuard] Loading region data...
+[12:42:57] [Server thread/INFO]: [BossShopPro] Enabling BossShopPro v2.0.9
+[12:42:57] [Server thread/INFO]: [BossShopPro] Loading data...
+[12:42:58] [Server thread/INFO]: [BossShopPro] Hooked into PlaceholderAPI.
+[12:42:58] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v19.1
+[12:42:58] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[12:42:58] [Server thread/INFO]: [CoreProtect] Using MySQL for data storage.
+[12:42:58] [Server thread/INFO]: --------------------
+[12:42:58] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[12:42:58] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[12:42:58] [Server thread/INFO]: --------------------
+[12:42:58] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.1.1-SNAPSHOT-b777
+[12:42:58] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.1.1-SNAPSHOT-b777" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[12:42:58] [Server thread/INFO]: [Multiverse-Core] We are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do. The performance impact is negligible.
+[12:42:58] [Server thread/INFO]: -------- World Settings For [oneblock_world] --------
+[12:42:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:42:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:42:58] [Server thread/INFO]: Max TNT Explosions: 100
+[12:42:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:42:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:42:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:42:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:42:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:42:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:42:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:42:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:42:58] [Server thread/INFO]: View Distance: 10
+[12:42:58] [Server thread/INFO]: Mob Spawn Range: 6
+[12:42:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:42:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:42:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:42:59] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock_world
+[12:42:59] [Server thread/INFO]: Loaded 0 spawn chunks for world oneblock_world
+[12:42:59] [Server thread/INFO]: Preparing spawn area: 0%
+[12:42:59] [Server thread/INFO]: Preparing spawn area: 0%
+[12:42:59] [Server thread/INFO]: Time elapsed: 847 ms
+[12:42:59] [Server thread/INFO]: [WorldGuard] (oneblock_world) TNT ignition is PERMITTED.
+[12:42:59] [Server thread/INFO]: [WorldGuard] (oneblock_world) Lighters are PERMITTED.
+[12:42:59] [Server thread/INFO]: [WorldGuard] (oneblock_world) Lava fire is PERMITTED.
+[12:42:59] [Server thread/INFO]: [WorldGuard] (oneblock_world) Fire spread is UNRESTRICTED.
+[12:42:59] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'oneblock_world'
+[12:43:00] [Server thread/INFO]: -------- World Settings For [oneblock_world_nether] --------
+[12:43:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:43:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:43:00] [Server thread/INFO]: Max TNT Explosions: 100
+[12:43:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:43:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:43:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[12:43:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[12:43:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:43:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:43:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:43:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:43:00] [Server thread/INFO]: View Distance: 10
+[12:43:00] [Server thread/INFO]: Mob Spawn Range: 6
+[12:43:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:43:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:43:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:43:03] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock_world_nether
+[12:43:03] [Server thread/INFO]: Loaded 0 spawn chunks for world oneblock_world_nether
+[12:43:03] [Server thread/INFO]: Preparing spawn area: 0%
+[12:43:03] [Server thread/INFO]: Time elapsed: 503 ms
+[12:43:03] [Server thread/INFO]: [WorldGuard] (oneblock_world_nether) TNT ignition is PERMITTED.
+[12:43:03] [Server thread/INFO]: [WorldGuard] (oneblock_world_nether) Lighters are PERMITTED.
+[12:43:03] [Server thread/INFO]: [WorldGuard] (oneblock_world_nether) Lava fire is PERMITTED.
+[12:43:03] [Server thread/INFO]: [WorldGuard] (oneblock_world_nether) Fire spread is UNRESTRICTED.
+[12:43:03] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'oneblock_world_nether'
+[12:43:03] [Server thread/INFO]: [Multiverse-Core] 5 - World(s) loaded.
+[12:43:04] [Server thread/INFO]: [Multiverse-Core] Version 4.1.1-SNAPSHOT-b777 (API v24) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[12:43:04] [Server thread/INFO]: [TitleDomain] Enabling TitleDomain v1.2.1*
+[12:43:04] [Server thread/INFO]: [TitleDomain] TitleDomain插件已经成功加载了~
+[12:43:04] [Server thread/INFO]: [TitleDomain] 已经载入1个区域.
+[12:43:04] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-SNAPSHOT-b2418
+[12:43:04] [Server thread/INFO]: [AuthMe] Connection arguments loaded, Hikari ConnectionPool ready!
+[12:43:04] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Starting...
+[12:43:04] [Server thread/WARN]: [Server thread] INFO fr.xephi.authme.libs.com.zaxxer.hikari.HikariDataSource - AuthMeMYSQLPool - Start completed.
+[12:43:04] [Server thread/INFO]: [AuthMe] MySQL setup finished
+[12:43:04] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[12:43:04] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+[12:43:05] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT build n.2418 successfully enabled!
+[12:43:05] [Server thread/INFO]: [LiteBans] Enabling LiteBans v2.5.9
+[12:43:06] [Server thread/INFO]: [LiteBans] Using default database drivers (version:4).
+[12:43:06] [Server thread/INFO]: [LiteBans] FastLogin detected; forcing `ban_names=true`.
+[12:43:06] [Server thread/INFO]: [LiteBans] Loading SQL driver: mysql 8.0.18 (com.mysql.cj.jdbc.Driver)
+[12:43:06] [Server thread/INFO]: [LiteBans] Connecting to database...
+[12:43:07] [Server thread/INFO]: [LiteBans] Connected to [jdbc:mysql://localhost:3306/lbw;useSSL=false&serverTimezone=UTC] (300.4 ms).
+[12:43:07] [Server thread/INFO]: [LiteBans] [Sync] Server name: litebans
+[12:43:07] [Server thread/INFO]: [LiteBans] [Sync] Server UUID: d3d5a211e78145eebd6f75632a4f3514 <1>
+[12:43:07] [Server thread/INFO]: [LiteBans] Database connection fully initialized (414.8 ms).
+[12:43:07] [Server thread/INFO]: [LiteBans] v2.5.9 enabled. Startup took 593 ms.
+[12:43:07] [Server thread/INFO]: [CMI] Enabling CMI v8.7.5.4
+[12:43:07] [Server thread/INFO]: [CMIPaperLib] Enabling CMIPaperLib v1.0.0
+[12:43:09] [Server thread/INFO]: ┏━━━┓ ┏━┓┏━┓ ┏━━┓
+[12:43:09] [Server thread/INFO]: ┃┏━┓┃ ┃ ┗┛ ┃ ┗┫┣┛
+[12:43:09] [Server thread/INFO]: ┃┃ ┗┛ ┃┏┓┏┓┃  ┃┃ 
+[12:43:09] [Server thread/INFO]: ┃┃ ┏┓ ┃┃┃┃┃┃  ┃┃ 
+[12:43:09] [Server thread/INFO]: ┃┗━┛┃ ┃┃┃┃┃┃ ┏┫┣┓
+[12:43:09] [Server thread/INFO]: ┗━━━┛ ┗┛┗┛┗┛ ┗━━┛
+[12:43:09] [Server thread/INFO]: _______________________________________________________
+[12:43:09] [Server thread/INFO]:   Integrating PaperSpigot async methods
+[12:43:11] [Server thread/INFO]:   51 Enabled and 0 Disabled modules
+[12:43:11] [Server thread/INFO]:   Permission plugin: LuckPerms5.1.26
+[12:43:11] [Server thread/INFO]:   Initialized Cipher128 AES
+[12:43:12] [Server thread/INFO]:   Loaded (48) regular alias into memory. Took 63ms
+[12:43:12] [Server thread/INFO]:   Loaded (1) custom text's into memory. Took 1ms
+[12:43:12] [Server thread/INFO]:   5.7.31-log data base type detected
+[12:43:12] [Server thread/INFO]:   Started MySQL data base. Took 197ms
+[12:43:12] [Server thread/INFO]:   Vault was found - Enabling capabilities. Economy: CMIEconomy
+[12:43:12] [Server thread/INFO]:   Loaded (5) warning categories into memory. Took 1ms
+[12:43:12] [Server thread/INFO]:   Loaded (3) warning commands into memory. Took 0ms
+[12:43:12] [Server thread/INFO]:   Loaded (130) custom mob heads into memory. Took 30ms
+[12:43:12] [Server thread/INFO]:   Loaded (0) cooldowns into memory. Took 37ms
+[12:43:13] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (skyblock) name
+[12:43:13] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (bskyblock_world_the_end) name
+[12:43:13] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (bskyblock_world) name
+[12:43:13] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (bskyblock_world_nether) name
+[12:43:13] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (skygrid-world) name
+[12:43:13] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (skygrid-world_the_end) name
+[12:43:13] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (skygrid-world_nether) name
+[12:43:13] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (acidisland_world_the_end) name
+[12:43:13] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (acidisland_world) name
+[12:43:13] [Server thread/INFO]:   (RandomTeleportation) Can't find world with (acidisland_world_nether) name
+[12:43:13] [Server thread/INFO]:   Initializing BungeeCord
+[12:43:13] [Server thread/INFO]:   Loaded (5) kits into memory. Took 29ms
+[12:43:13] [Server thread/INFO]:   Loaded (7) ranks into memory. Took 28ms
+[12:43:13] [Server thread/INFO]:   Loaded (8) playtime rewards into memory. Took 28ms
+[12:43:13] [Server thread/INFO]:   
+Attention! Found 3 duplicates in database. Same name, different UUID. This can cause some minor issues. Please remove one of them from database with /cmi removeuser [uuid] or /cmi removeuser duplicates 
+RedstoneBread 8037463e-ede9-463a-8ac6-cdf538baa627 last seen: 1 hour 55 min 18 sec  
+RedstoneBread 8dd82ec1-4c53-35ce-b459-3520113aed83 last seen: 5 days 13 hours 51 min 28 sec  
+Loli_Wolf 11d5ce25-d16f-49b4-ad3b-6266b41d0d2a last seen: 13 hours 21 sec  
+Loli_Wolf 4da35f76-c6c1-3194-a8e9-18ae7a2e4e22 last seen: 5 days 12 hours 3 min 29 sec  
+Loli_Demo 7a4d1b8f-8494-4cf0-a8de-92dd03bca284 last seen: 2 days 17 hours 21 min 23 sec  
+Loli_Demo a9dfba00-f204-3baa-bc5a-ae91e2076676 last seen: 9 days 1 hour 3 min 10 sec 
+[12:43:13] [Server thread/INFO]:   Loaded (21) player data into memory. Took 49ms
+[12:43:13] [Server thread/INFO]:   Loaded (0) playtime records into memory. Took 0ms
+[12:43:13] [Server thread/INFO]:   Loaded (0) playtime reward records into memory. Took 0ms
+[12:43:14] [Thread-24/INFO]: ===========[TitleDomain]============
+[12:43:14] [Thread-24/INFO]: 无法访问版本更新网络.找不到更新信息.
+[12:43:16] [Server thread/INFO]:   Loaded (0) interactive commands into memory. Took 2200ms
+[12:43:16] [Server thread/INFO]:   Registered events. Took 2799ms
+[12:43:16] [Server thread/INFO]:   Loaded (3) event action commands into memory. Took 3ms
+[12:43:16] [Server thread/INFO]:   Updated (EN) language file. Took 359ms
+[12:43:16] [Server thread/INFO]:   Updated (CN) language file. Took 287ms
+[12:43:16] [Server thread/INFO]:   Loaded (245) worth values into memory. Took 17ms
+[12:43:16] [Server thread/INFO]:   Loaded (1) warps into memory. Took 2ms
+[12:43:16] [Server thread/INFO]:   Vault permissions was found - Enabling capabilities.
+[12:43:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmi
+[12:43:16] [Server thread/INFO]:   PlaceholderAPI hooked.
+[12:43:16] [Server thread/INFO]:   PlaceholderAPI was found - Enabling capabilities.
+[12:43:16] [Server thread/INFO]:   Starting world timer.
+[12:43:16] [Server thread/INFO]:   Initializing world manager.
+[12:43:16] [Server thread/INFO]:   Loaded (5) schedules into memory. Took 18ms
+[12:43:16] [Server thread/INFO]:   Loaded GeoLiteCity
+[12:43:16] [Server thread/INFO]:   Loaded (1) skin cache entries into memory. Took 1ms
+[12:43:17] [Server thread/INFO]:   Loaded (4) custom recipes into memory. Took 28ms
+[12:43:17] [Server thread/INFO]:   Version 8.7.5.4 has been enabled
+[12:43:17] [Server thread/INFO]: ‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾
+[12:43:17] [Server thread/INFO]: [AuthMe] Hooked successfully into CMI
+[12:43:17] [Server thread/INFO]: [Vault][Economy] CMI Economy hooked.
+[12:43:17] [Server thread/INFO]: [CMIEInjector][Economy] CMI Economy hooked.
+[12:43:17] [Server thread/INFO]: [Plan] Enabling Plan v5.1 build 624
+[12:43:17] [Server thread/INFO]: 
+[12:43:17] [Server thread/INFO]:            ██▌
+[12:43:17] [Server thread/INFO]:      ██▌   ██▌
+[12:43:17] [Server thread/INFO]:   ██▌██▌██▌██▌  Player Analytics
+[12:43:17] [Server thread/INFO]:   ██▌██▌██▌██▌  v5.1 build 624
+[12:43:17] [Server thread/INFO]: 
+[12:43:17] [Server thread/INFO]: [Plan] Locale: 'Custom' by 
+[12:43:18] [Server thread/INFO]: [Plan] MySQL-已建立数据库连接。
+[12:43:18] [Server thread/INFO]: [Plan] Certificate: X.509
+[12:43:18] [Server thread/INFO]: [Plan] 网页服务器: 用户验证已关闭! (关闭于配置文件)
+[12:43:18] [Server thread/INFO]: [Plan] 正在初始化网页服务器···
+[12:43:19] [Server thread/INFO]: [Plan] Registered extension: Litebans
+[12:43:19] [Server thread/INFO]: [Plan] Registered extension: LuckPerms
+[12:43:19] [Server thread/INFO]: [Plan] Registered extension: Economy (Vault)
+[12:43:19] [Server thread/INFO]: [Plan] Registered extension: Permission Groups (Vault)
+[12:43:19] [Server thread/INFO]: [Plan] 已启用插件。 (2108 ms)
+[12:43:19] [Server thread/INFO]: [DomainCommands] Enabling DomainCommands v1.0.1*
+[12:43:19] [Server thread/INFO]: [DomainCommands] 区域执行命令插件启动成功！
+[12:43:19] [Server thread/INFO]: [FastLogin] Enabling FastLogin v1.11-SNAPSHOT-496a036
+[12:43:19] [Server thread/INFO]: [fastlogin.hikari.HikariDataSource] FastLogin - Starting...
+[12:43:19] [Server thread/WARN]: [FastLogin] Loaded class com.Zrips.CMI.Modules.DataBase.DBDrivers from CMI v8.7.5.4 which is not a depend, softdepend or loadbefore of this plugin.
+[12:43:19] [Server thread/WARN]: [FastLogin] Loaded class plan.com.mysql.cj.jdbc.Driver from Plan v5.1 build 624 which is not a depend, softdepend or loadbefore of this plugin.
+[12:43:19] [Server thread/INFO]: [fastlogin.hikari.HikariDataSource] FastLogin - Start completed.
+[12:43:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: FastLogin
+[12:43:19] [Server thread/INFO]: [QuickShop] Enabling QuickShop v4.0.4.5
+[12:43:19] [Server thread/INFO]: [QuickShop] Quickshop Reremake
+[12:43:19] [Server thread/INFO]: [QuickShop] Running QuickShop-Reremake on NMS version v1_16_R1 For Minecraft version 1.16.1
+[12:43:19] [Server thread/INFO]: [QuickShop] Reading the configuration...
+[12:43:19] [Server thread/INFO]: [QuickShop] Developers: BukkitCommonsStudio, Netherfoam, Timtower, KaiNoMood, Ghost_chu, Mgazul, TiaraRinne
+[12:43:19] [Server thread/INFO]: [QuickShop] Original author: Netherfoam, Timtower, KaiNoMood
+[12:43:19] [Server thread/INFO]: [QuickShop] Let's start loading the plugin
+[12:43:19] [Server thread/INFO]: [QuickShop] Loading plugin translations files...
+[12:43:19] [Thread-31/INFO]: [QuickShop] Downloading version manifest...
+[12:43:21] [Thread-31/INFO]: [QuickShop] Downloading version index...
+[12:43:25] [Thread-31/WARN]: [QuickShop] Cannot get file hash for language en_us, fallback to en_us...
+[12:43:25] [Thread-31/WARN]: [QuickShop] Cannot download require files, some items/blocks/potions/enchs language will use default English name.
+[12:43:26] [Server thread/INFO]: [QuickShop] 翻译人员： Ghost_chu, Andre_601
+[12:43:26] [Server thread/INFO]: [QuickShop] 开发贡献者：Timtower, Netherfoam, KaiNoMood JackTheChicken 和 Andre_601
+[12:43:26] [Server thread/INFO]: [QuickShop] 本地化语言：简体中文 (zh_CN)
+[12:43:26] [Server thread/INFO]: [QuickShop] Completed to load plugin translations files.
+[12:43:26] [Server thread/INFO]: [QuickShop] Starting loading items translation...
+[12:43:26] [Server thread/INFO]: [QuickShop] Complete to load items translation.
+[12:43:26] [Server thread/INFO]: [QuickShop] Starting loading enchantments translation...
+[12:43:26] [Server thread/INFO]: [QuickShop] Complete to load enchantments translation.
+[12:43:26] [Server thread/INFO]: [QuickShop] Starting loading potions translation...
+[12:43:26] [Server thread/INFO]: [QuickShop] Complete to load potions effect translation.
+[12:43:26] [Server thread/INFO]: [QuickShop] Successfully loaded PlaceHolderAPI support!
+[12:43:26] [Server thread/INFO]: [QuickShop] Using Virtual item Display, loading ProtocolLib support...
+[12:43:26] [Server thread/INFO]: [QuickShop] Successfully loaded ProtocolLib support!
+[12:43:26] [Server thread/INFO]: [QuickShop] Selected permission provider: Bukkit
+[12:43:26] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[12:43:26] [Server thread/INFO]: [QuickShop] Used 0ms to fetch all shops from the database.
+[12:43:26] [Server thread/INFO]: [QuickShop] Successfully loaded 2 shops! (Used 167ms, Avg 83ms per shop)
+[12:43:26] [Server thread/INFO]: [QuickShop] 2 shops will load after chunk have loaded, 0 shops will load after the world has loaded.
+[12:43:26] [Server thread/INFO]: [QuickShop] Registering Listeners...
+[12:43:26] [Server thread/INFO]: [QuickShop] Cleaning MsgUtils...
+[12:43:26] [Server thread/INFO]: [QuickShop] Cleaning purchase messages from the database that are over a week old...
+[12:43:26] [Server thread/INFO]: [QuickShop] Registering UpdateWatcher...
+[12:43:26] [Server thread/INFO]: [QuickShop] QuickShop Loaded! 6477 ms.
+[12:43:26] [Server thread/INFO]: [QuickShop] Log actions is enabled, actions will log in the qs.log file!
+[12:43:26] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[12:43:26] [Server thread/INFO]: Running delayed init tasks
+[12:43:26] [Server thread/INFO]: [BentoBox] Hooking with PlaceholderAPI...
+[12:43:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: bentobox
+[12:43:26] [Server thread/INFO]: [BentoBox] Enabling game mode addons...
+[12:43:26] [Server thread/INFO]: [BentoBox] Enabling AOneBlock...
+[12:43:26] [Craft Scheduler Thread - 17/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[12:43:26] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7500_the nether_chests.yml
+[12:43:26] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7500_the nether.yml
+[12:43:26] [Craft Scheduler Thread - 18/WARN]: [Plan] Ran into ConnectException - logged to plugins/Plan/logs/ConnectException-464a1ab13b.txt
+[12:43:26] [Craft Scheduler Thread - 18/WARN]: [Plan] (INCLUDE CONTENTS OF THE FILE IN ANY REPORTS)
+[12:43:26] [Craft Scheduler Thread - 18/WARN]: [Plan] What to do: Allow Plan to check for updates from Github/versions.txt or disable update check.
+[12:43:26] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 700_underground.yml
+[12:43:26] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 700_underground_chests.yml
+[12:43:26] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 5000_swamp_chests.yml
+[12:43:26] [Craft Scheduler Thread - 17/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[12:43:26] [Craft Scheduler Thread - 17/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[12:43:26] [Craft Scheduler Thread - 17/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[12:43:26] [Craft Scheduler Thread - 23/INFO]: [Vault] Checking for Updates ... 
+[12:43:26] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 8500_plenty.yml
+[12:43:26] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 2000_winter.yml
+[12:43:26] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 11000_goto_0.yml
+[12:43:26] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 3000_ocean.yml
+[12:43:26] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 10500_the end_chests.yml
+[12:43:27] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 10500_the end.yml
+[12:43:27] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 6000_dungeon.yml
+[12:43:27] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 3000_ocean_chests.yml
+[12:43:27] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 0_plains_chests.yml
+[12:43:27] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 6000_dungeon_chests.yml
+[12:43:27] [Craft Scheduler Thread - 15/INFO]: [JukeBox] 2 songs loadeds. Sorting by name... 
+[12:43:27] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 9500_desolation_chests.yml
+[12:43:27] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 9500_desolation.yml
+[12:43:27] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 4000_jungle_chests.yml
+[12:43:28] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 5000_swamp.yml
+[12:43:28] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7000_desert.yml
+[12:43:28] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 4000_jungle.yml
+[12:43:28] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 0_plains.yml
+[12:43:28] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 7000_desert_chests.yml
+[12:43:28] [Craft Scheduler Thread - 15/INFO]: [JukeBox] Songs sorted ! 2 songs. Number of pages : 1
+[12:43:28] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 2000_winter_chests.yml
+[12:43:28] [Server thread/INFO]: [BentoBox] [AOneBlock] Loading 8500_plenty_chests.yml
+[12:43:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aoneblock
+[12:43:28] [Server thread/INFO]: [BentoBox] Enabling other addons...
+[12:43:28] [Server thread/INFO]: [BentoBox] Enabling Level...
+[12:43:28] [Server thread/WARN]: [BentoBox] [Level] Level Addon: No such world in blockconfig.yml : acidisland_world
+[12:43:29] [Server thread/INFO]: [BentoBox] [Level] Level hooking into AOneBlock
+[12:43:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: level
+[12:43:29] [Server thread/INFO]: [BentoBox] Enabling BentoBox-InvSwitcher...
+[12:43:29] [Server thread/INFO]: [BentoBox] Enabling Challenges...
+[12:43:29] [Server thread/INFO]: [BentoBox] [Challenges] Loading challenges...
+[12:43:29] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'BSkyBlock_advanced' is not valid and skipped
+[12:43:29] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'BSkyBlock_competent' is not valid and skipped
+[12:43:29] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'BSkyBlock_elite' is not valid and skipped
+[12:43:29] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'BSkyBlock_expert' is not valid and skipped
+[12:43:29] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'BSkyBlock_novice' is not valid and skipped
+[12:43:29] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'AcidIsland_advanced' is not valid and skipped
+[12:43:29] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'AcidIsland_competent' is not valid and skipped
+[12:43:29] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'AcidIsland_elite' is not valid and skipped
+[12:43:29] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'AcidIsland_expert' is not valid and skipped
+[12:43:29] [Server thread/ERROR]: [BentoBox] [Challenges] Challenge Level 'AcidIsland_novice' is not valid and skipped
+[12:43:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: challenges
+[12:43:29] [Server thread/INFO]: [BentoBox] Enabling ControlPanel...
+[12:43:29] [Server thread/INFO]: [BentoBox] Loading control panels...
+[12:43:30] [Server thread/INFO]: [BentoBox] Addons successfully enabled.
+[12:43:30] [Server thread/INFO]: [BentoBox] Hooking with Multiverse-Core...
+[12:43:30] [Server thread/INFO]: Multiverse already knows about 'oneblock_world'!
+[12:43:30] [Server thread/INFO]: Success! Property generator was set to BentoBox
+[12:43:30] [Server thread/INFO]: [BentoBox] Hooking with WorldEdit...
+[12:43:30] [Server thread/INFO]:  ____             _        ____
+|  _ \           | |      |  _ \             by tastybento and Poslovitch
+| |_) | ___ _ __ | |_ ___ | |_) | _____  __  2017 - 2020
+|  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
+| |_) |  __/ | | | || (_) | |_) | (_) >  <   v1.15.0-SNAPSHOT-b1846
+|____/ \___|_| |_|\__\___/|____/ \___/_/\_\  加载用时 8013ms.
+[12:43:30] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[12:43:30] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[12:43:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: plan
+[12:43:30] [Server thread/INFO]: [QuickShop] Registering BStats Mertics...
+[12:43:30] [Server thread/INFO]: [QuickShop] Metrics submitted.
+[12:43:30] [Server thread/INFO]: [QuickShop] Using economy system: CMIEconomy
+[12:43:30] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.luckperms.api.LuckPerms from LuckPerms v5.1.26 which is not a depend, softdepend or loadbefore of this plugin.
+[12:43:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: luckperms
+[12:43:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: servertime
+[12:43:30] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b${env.TRAVIS_BUILD_NUMBER} which is not a depend, softdepend or loadbefore of this plugin.
+[12:43:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[12:43:30] [Server thread/WARN]: [PlaceholderAPI] Loaded class com.onarandombox.MultiverseCore.MultiverseCore from Multiverse-Core v4.1.1-SNAPSHOT-b777 which is not a depend, softdepend or loadbefore of this plugin.
+[12:43:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: multiverse
+[12:43:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[12:43:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[12:43:30] [Server thread/INFO]: 6 placeholder hooks successfully registered!
+[12:43:30] [Server thread/INFO]: [BentoBox] Added world OneBlock (NORMAL)
+[12:43:30] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.10.9) is available at:
+[12:43:30] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[12:43:30] [Server thread/INFO]: Done (69.394s)! For help, type "help"
+[12:43:30] [Server thread/INFO]: Timings Reset
+[12:43:30] [Craft Scheduler Thread - 15/INFO]: [BentoBox] Loaded Blueprint Bundle 'default' for AOneBlock.
+[12:43:30] [Craft Scheduler Thread - 15/INFO]: [BentoBox] Loaded blueprint 'bedrock' for AOneBlock
+[12:43:30] [Server thread/ERROR]: [BentoBox] [Level] TopTen world 'bskyblock_world' is not known on server. You might want to delete this table. Skipping...
+[12:43:30] [Server thread/INFO]: [BentoBox] [Level] Loaded top ten for oneblock_world
+[12:43:30] [Server thread/INFO]: [BentoBox] All blueprints loaded.
+[12:43:30] [Server thread/INFO]: [FastLogin] Hooking into auth plugin: AuthMeHook
+[12:43:31] [Craft Scheduler Thread - 27/INFO]: [BossShopPro] Loaded 11 Shops!
+[12:43:31] [Craft Scheduler Thread - 27/INFO]: [BossShopPro] Vault found.
+[12:43:31] [Thread-39/INFO]: [CoreProtect] No donation key found. Please check config.yml.
+[12:43:31] [Craft Scheduler Thread - 30/INFO]: [BentoBox] Downloading data from GitHub...
+[12:43:31] [Craft Scheduler Thread - 30/INFO]: [BentoBox] Updating the Catalog...
+[12:43:31] [Craft Scheduler Thread - 30/INFO]: [BentoBox] Updating Contributors information...
+[12:43:31] [Craft Scheduler Thread - 30/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/AOneBlock, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel
+[12:43:31] [Craft Scheduler Thread - 30/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[12:43:32] [Craft Scheduler Thread - 23/INFO]: [Vault] No new version available
+[12:43:35] [FastLogin Pool Thread #0/INFO]: [FastLogin] Handling player Durango
+[12:43:35] [User Authenticator #1/INFO]: UUID of player Durango is 214e70c7-de1c-30e3-b033-2f55207b8acc
+[12:43:42] [Server thread/INFO]:  [+]Durango
+[12:43:42] [Server thread/INFO]: Durango[/106.122.5.127:53950] logged in with entity id 72 at ([oneblock_world]-6.079237616412183, 83.00063554902955, 775.3937207512074)
+[12:43:44] [Craft Scheduler Thread - 31/INFO]: [AuthMe] Durango logged in!
+[12:43:48] [Server thread/INFO]: Durango issued server command: /fly
+[12:43:51] [FastLogin Pool Thread #1/INFO]: [FastLogin] Handling player RedstoneBread
+[12:43:51] [FastLogin Pool Thread #1/INFO]: [FastLogin] Requesting premium login for registered player: RedstoneBread
+[12:43:54] [FastLogin Pool Thread #2/INFO]: [FastLogin] Profile RedstoneBread has a verified premium account: Verification{id=8037463e-ede9-463a-8ac6-cdf538baa627, name='RedstoneBread', properties=[SkinProperty{value='ewogICJ0aW1lc3RhbXAiIDogMTU5NzAzNDYzNDgxMSwKICAicHJvZmlsZUlkIiA6ICI4MDM3NDYzZWVkZTk0NjNhOGFjNmNkZjUzOGJhYTYyNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWRzdG9uZUJyZWFkIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RiZDkxNGQ0OTliM2FhMDBmNTYyNGVlOGNiMzMxNDYzZmQyMzhmNDVmMDZhODczNzRmOGIzMTllMWQ2NTVhZTAiCiAgICB9CiAgfQp9', signature='lVrdBNJdyc8fl1pgWL5Fge6STuQ5R480lrvTMZR9X8L6in1grd2TpqWKNVWChHD6JbqEk7X5UOxH7L/s0LRcviloIZAP5mq5XpgFMlb+2IjMr/+0NyiUd66dFwky8QGTSY90dBZq6sDqRr5Hn4qQFElo74h69atjHENMgFaH5MfTEQBCdoJzoQbQzgkgzh5SRmLRuG7shrmOmr8lqGXjYSWIAx63CA3UwSKHrQvY9q2MICipqO3MG1D0jOrmwV6vTEEFUWiXq7h6cwlrUJLY+5jAXtH/JvgKy+j+mHK/RA53xddWhNrsMrubWevujozrnAHx2ZmC+pktfcdb7hvFdlbrSWyHg3fOE1BBaOaRdfaK3dxLZZvmtRRvBjPC2pxxbiIk8IsXd8rBmybHDzWR4Tx5F5fgj01nsqzhVJ8FiHg/Yg4fpjZn3hJw3r26LH2ZKIfNR2X0p5iw2KveN9JfYaA3p1ZrHpIp9yz3/NqozeoFHoFGNpEAZz/tfq36uAAQsalNHPfWCgwNw+TE7ju8fHz6dKzQwUTTSGogRS/uZgozFgQxC2nl0y7vjN7O7hszXFOZTM9X7++qRhgtWzygBZUNLFfLBq7jimZI4BOz4cB0DV6wXJ12rWHdpp561HbD5kaYSanKEpJYGs/ut2e2eix8S5I8QydDHRkIW5QGGyM='}]}
+[12:43:55] [User Authenticator #1/INFO]: UUID of player RedstoneBread is 8037463e-ede9-463a-8ac6-cdf538baa627
+[12:43:55] [Server thread/INFO]:  [+]RedstoneBread
+[12:43:55] [Server thread/INFO]: RedstoneBread[/115.49.22.30:62483] logged in with entity id 299 at ([oneblock_world]-4.086314827806627, 81.0, 778.9065136040169)
+[12:43:55] [Craft Scheduler Thread - 21/INFO]: [FastLogin] Logging player RedstoneBread in
+[12:43:55] [Craft Scheduler Thread - 21/INFO]: [AuthMe] RedstoneBread logged in!
+[12:43:56] [Craft Scheduler Thread - 32/INFO]: [BentoBox] Downloading data from GitHub...
+[12:43:56] [Craft Scheduler Thread - 32/INFO]: [BentoBox] Could not connect to GitHub.
+[12:43:56] [Craft Scheduler Thread - 32/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[12:44:53] [Server thread/INFO]: ---- Showing Help For: Geyser (Page 1/1) ----
+[12:44:53] [Server thread/INFO]: /geyser ?: Shows help for all registered commands.
+[12:44:53] [Server thread/INFO]: /geyser dump: Dumps Geyser debug information for bug reports.
+[12:44:53] [Server thread/INFO]: /geyser help: Shows help for all registered commands.
+[12:44:53] [Server thread/INFO]: /geyser list: List all players connected through Geyser.
+[12:44:53] [Server thread/INFO]: /geyser offhand: Puts an items in your offhand.
+[12:44:53] [Server thread/INFO]: /geyser reload: Reloads the Geyser configurations. Kicks all players when used!
+[12:44:53] [Server thread/INFO]: /geyser shutdown: Shuts down Geyser.
+[12:44:53] [Server thread/INFO]: /geyser stop: Shuts down Geyser.
+[12:44:53] [Server thread/INFO]: /geyser version: Shows the current Geyser version and checks for updates.
+[12:45:13] [Async Chat Thread - #0/INFO]: 空岛 服主 RedstoneBread:好了 今天服务器不会再重启了
+[12:45:17] [Async Chat Thread - #0/INFO]: 空岛 人民 Durango:yyy
+[12:45:23] [Async Chat Thread - #0/INFO]: 空岛 服主 RedstoneBread:今天重启不下三次了
+[12:45:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[12:45:29] [Async Chat Thread - #0/INFO]: 空岛 人民 Durango:重启干啥
+[12:45:36] [Async Chat Thread - #0/INFO]: 空岛 服主 RedstoneBread:加插件
+[12:47:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[12:48:24] [Async Chat Thread - #1/INFO]: 空岛 人民 Durango:..
+[12:49:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[12:51:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[12:53:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[12:53:26] [Server thread/INFO]: Saving the game (this may take a moment!)
+[12:53:27] [Server thread/INFO]: Saved the game
+[12:55:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[12:57:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[12:59:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:01:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:01:27] [Server thread/INFO]: [RCC-WARN]将在 120 秒内开始清理地面垃圾
+[13:02:23] [Server thread/INFO]: Villager EntityVillager['Villager'/252, uuid='332b84f5-fe54-41bd-a55a-a4f0c15232a5', l='ServerLevel[oneblock_world]', x=-34.19, y=81.00, z=813.50, cx=-3, cz=50, tl=586934, v=true, d=false] died, message: 'Villager suffocated in a wall'
+[13:02:25] [Async Chat Thread - #2/INFO]: 空岛 服主 RedstoneBread:小心恼鬼
+[13:02:27] [Server thread/INFO]: [RCC-WARN]将在 60 秒内开始清理地面垃圾
+[13:02:32] [Server thread/INFO]: RedstoneBread issued server command: /fly
+[13:02:40] [Async Chat Thread - #2/INFO]: 空岛 人民 Durango:没办法啊
+[13:02:57] [Server thread/INFO]: [RCC-WARN]将在 30 秒内开始清理地面垃圾
+[13:03:07] [Async Chat Thread - #2/INFO]: 空岛 人民 Durango:不过恼鬼都是冲我来的
+[13:03:17] [Server thread/INFO]: [RCC-WARN]将在 10 秒内开始清理地面垃圾
+[13:03:22] [Server thread/INFO]: [RCC-WARN]将在 5 秒内开始清理地面垃圾
+[13:03:23] [Server thread/INFO]: [RCC-WARN]将在 4 秒内开始清理地面垃圾
+[13:03:24] [Server thread/INFO]: [RCC-WARN]将在 3 秒内开始清理地面垃圾
+[13:03:25] [Server thread/INFO]: [RCC-WARN]将在 2 秒内开始清理地面垃圾
+[13:03:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:03:26] [Server thread/INFO]: Saving the game (this may take a moment!)
+[13:03:26] [Server thread/INFO]: Saved the game
+[13:03:26] [Server thread/INFO]: [RCC-WARN]将在 1 秒内开始清理地面垃圾
+[13:03:28] [Server thread/INFO]: [RCC-INFO]地面掉落物清理完成，清理了 8 个掉落物。
+[13:03:56] [Async Chat Thread - #2/INFO]: 空岛 服主 RedstoneBread:我打算做个牌子商店
+[13:04:08] [Async Chat Thread - #2/INFO]: 空岛 服主 RedstoneBread:实体货币交易
+[13:04:53] [Async Chat Thread - #2/INFO]: 空岛 人民 Durango:Zz
+[13:05:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:05:40] [Server thread/INFO]: RedstoneBread issued server command: /gamemode creative
+[13:06:03] [Network Listener - #1/INFO]: [Geyser-Spigot] /101.233.114.6:54277 tried to connect!
+[13:06:04] [Network Listener - #1/ERROR]: [com.nukkitx.network.raknet.RakNetServer] An exception occurred in RakNet
+java.lang.AssertionError: Expected AES to be available
+	at com.nukkitx.natives.aes.JavaAes.<init>(JavaAes.java:26) ~[?:?]
+	at com.nukkitx.protocol.bedrock.BedrockSession.enableEncryption(BedrockSession.java:200) ~[?:?]
+	at org.geysermc.connector.utils.LoginEncryptionUtils.startEncryptionHandshake(LoginEncryptionUtils.java:148) ~[?:?]
+	at org.geysermc.connector.utils.LoginEncryptionUtils.encryptConnectionWithCert(LoginEncryptionUtils.java:133) ~[?:?]
+	at org.geysermc.connector.utils.LoginEncryptionUtils.encryptPlayerConnection(LoginEncryptionUtils.java:99) ~[?:?]
+	at org.geysermc.connector.network.UpstreamPacketHandler.handle(UpstreamPacketHandler.java:59) ~[?:?]
+	at com.nukkitx.protocol.bedrock.packet.LoginPacket.handle(LoginPacket.java:21) ~[?:?]
+	at com.nukkitx.protocol.bedrock.handler.DefaultBatchHandler.handle(DefaultBatchHandler.java:26) ~[?:?]
+	at com.nukkitx.protocol.bedrock.BedrockSession.onWrappedPacket(BedrockSession.java:278) ~[?:?]
+	at com.nukkitx.protocol.bedrock.BedrockRakNetSessionListener.onEncapsulated(BedrockRakNetSessionListener.java:32) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onEncapsulatedInternal(RakNetSession.java:307) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onOrderedReceived(RakNetSession.java:434) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.checkForOrdered(RakNetSession.java:412) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onRakNetDatagram(RakNetSession.java:400) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onDatagram(RakNetSession.java:279) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetServer$ServerDatagramHandler.channelRead(RakNetServer.java:288) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1422) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:931) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:93) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[?:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+[13:06:17] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /101.233.114.6 has disconnected for reason CLOSED_BY_REMOTE_PEER
+[13:07:05] [Network Listener - #1/INFO]: [Geyser-Spigot] /101.233.114.6:54277 tried to connect!
+[13:07:06] [Network Listener - #1/ERROR]: [com.nukkitx.network.raknet.RakNetServer] An exception occurred in RakNet
+java.lang.AssertionError: Expected AES to be available
+	at com.nukkitx.natives.aes.JavaAes.<init>(JavaAes.java:26) ~[?:?]
+	at com.nukkitx.protocol.bedrock.BedrockSession.enableEncryption(BedrockSession.java:200) ~[?:?]
+	at org.geysermc.connector.utils.LoginEncryptionUtils.startEncryptionHandshake(LoginEncryptionUtils.java:148) ~[?:?]
+	at org.geysermc.connector.utils.LoginEncryptionUtils.encryptConnectionWithCert(LoginEncryptionUtils.java:133) ~[?:?]
+	at org.geysermc.connector.utils.LoginEncryptionUtils.encryptPlayerConnection(LoginEncryptionUtils.java:99) ~[?:?]
+	at org.geysermc.connector.network.UpstreamPacketHandler.handle(UpstreamPacketHandler.java:59) ~[?:?]
+	at com.nukkitx.protocol.bedrock.packet.LoginPacket.handle(LoginPacket.java:21) ~[?:?]
+	at com.nukkitx.protocol.bedrock.handler.DefaultBatchHandler.handle(DefaultBatchHandler.java:26) ~[?:?]
+	at com.nukkitx.protocol.bedrock.BedrockSession.onWrappedPacket(BedrockSession.java:278) ~[?:?]
+	at com.nukkitx.protocol.bedrock.BedrockRakNetSessionListener.onEncapsulated(BedrockRakNetSessionListener.java:32) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onEncapsulatedInternal(RakNetSession.java:307) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onOrderedReceived(RakNetSession.java:434) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.checkForOrdered(RakNetSession.java:412) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onRakNetDatagram(RakNetSession.java:400) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onDatagram(RakNetSession.java:279) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetServer$ServerDatagramHandler.channelRead(RakNetServer.java:288) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1422) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:931) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:93) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[?:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+[13:07:10] [Server thread/INFO]: RedstoneBread has made the advancement [Into Fire]
+[13:07:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:07:35] [Network Listener - #1/INFO]: [Geyser-Spigot] Bedrock user with ip: /101.233.114.6 has disconnected for reason CLOSED_BY_REMOTE_PEER
+[13:07:54] [Network Listener - #1/INFO]: [Geyser-Spigot] /101.233.114.6:54277 tried to connect!
+[13:07:54] [Network Listener - #1/ERROR]: [com.nukkitx.network.raknet.RakNetServer] An exception occurred in RakNet
+java.lang.AssertionError: Expected AES to be available
+	at com.nukkitx.natives.aes.JavaAes.<init>(JavaAes.java:26) ~[?:?]
+	at com.nukkitx.protocol.bedrock.BedrockSession.enableEncryption(BedrockSession.java:200) ~[?:?]
+	at org.geysermc.connector.utils.LoginEncryptionUtils.startEncryptionHandshake(LoginEncryptionUtils.java:148) ~[?:?]
+	at org.geysermc.connector.utils.LoginEncryptionUtils.encryptConnectionWithCert(LoginEncryptionUtils.java:133) ~[?:?]
+	at org.geysermc.connector.utils.LoginEncryptionUtils.encryptPlayerConnection(LoginEncryptionUtils.java:99) ~[?:?]
+	at org.geysermc.connector.network.UpstreamPacketHandler.handle(UpstreamPacketHandler.java:59) ~[?:?]
+	at com.nukkitx.protocol.bedrock.packet.LoginPacket.handle(LoginPacket.java:21) ~[?:?]
+	at com.nukkitx.protocol.bedrock.handler.DefaultBatchHandler.handle(DefaultBatchHandler.java:26) ~[?:?]
+	at com.nukkitx.protocol.bedrock.BedrockSession.onWrappedPacket(BedrockSession.java:278) ~[?:?]
+	at com.nukkitx.protocol.bedrock.BedrockRakNetSessionListener.onEncapsulated(BedrockRakNetSessionListener.java:32) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onEncapsulatedInternal(RakNetSession.java:307) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onOrderedReceived(RakNetSession.java:434) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.checkForOrdered(RakNetSession.java:412) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onRakNetDatagram(RakNetSession.java:400) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetSession.onDatagram(RakNetSession.java:279) ~[?:?]
+	at com.nukkitx.network.raknet.RakNetServer$ServerDatagramHandler.channelRead(RakNetServer.java:288) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1422) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:931) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.AbstractNioMessageChannel$NioMessageUnsafe.read(AbstractNioMessageChannel.java:93) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050) ~[?:?]
+	at org.geysermc.platform.spigot.shaded.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[?:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_111]
+[13:08:19] [Server thread/INFO]: Durango has made the advancement [Local Brewery]
+[13:08:30] [Network Listener - #3/INFO]: [Geyser-Spigot] Bedrock user with ip: /101.233.114.6 has disconnected for reason TIMED_OUT
+[13:09:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:11:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:13:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:13:26] [Server thread/INFO]: Saving the game (this may take a moment!)
+[13:13:26] [Server thread/INFO]: Saved the game
+[13:15:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:17:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:19:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:20:24] [Server thread/INFO]: RedstoneBread issued server command: /plugins
+[13:20:39] [Server thread/INFO]: Plugins (35): AdvancedCleaner, AntiSeedCracker, AuthMe, BentoBox, BossShopPro, CMI, CMIEInjector*, CMIPaperLib, CoreProtect, DomainCommands*, DynamicFarming, FastLogin, Geyser-Spigot, ImageOnMap, JukeBox, LiteBans, LuckPerms, Multiverse-Core, NoteBlockAPI, OreTeleport*, PlaceholderAPI, Plan, PlayerChecker*, PlugMan, ProtocolLib, QuickShop, RBTrash*, SbPlaceholder*, ServerMonitor*, TCExpress*, TitleDomain*, Vault, VillagerOptimiser, WorldEdit, WorldGuard
+[13:21:26] [Server thread/INFO]: [PlayerChecker] 当前连接频率：0.0 次/秒，防御状态：关闭
+[13:21:28] [Server thread/INFO]: [RCC-WARN]将在 120 秒内开始清理地面垃圾
+[13:22:20] [Async Chat Thread - #3/INFO]: 空岛 人民 Durango:草
+[13:22:23] [Async Chat Thread - #3/INFO]: 空岛 人民 Durango:合错了
+[13:22:28] [Server thread/INFO]: [RCC-WARN]将在 60 秒内开始清理地面垃圾
+[13:22:56] [Async Chat Thread - #3/INFO]: 空岛 人民 Durango:太草了
+[13:22:58] [Server thread/INFO]: [RCC-WARN]将在 30 秒内开始清理地面垃圾
