@@ -1,0 +1,2 @@
+# minecraft
+Plugins (35): AdvancedCleaner, AntiSeedCracker, AuthMe, BentoBox, BossShopPro, CMI, CMIEInjector*, CMIPaperLib, CoreProtect, DomainCommands*, DynamicFarming, FastLogin, Geyser-Spigot, ImageOnMap, JukeBox, LiteBans, LuckPerms, Multiverse-Core, NoteBlockAPI, OreTeleport*, PlaceholderAPI, Plan, PlayerChecker*, PlugMan, ProtocolLib, QuickShop, RBTrash*, SbPlaceholder*, ServerMonitor*, TCExpress*, TitleDomain*, Vault, VillagerOptimiser, WorldEdit, WorldGuard
